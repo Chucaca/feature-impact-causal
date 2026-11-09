@@ -1,0 +1,12 @@
+# core
+numpy>=1.26
+pandas>=2.2
+scikit-learn>=1.4
+scipy>=1.11
+matplotlib>=3.8
+pydantic>=2.5
+pytest>=8.0
+# optional: LLM-written summaries (imported lazily; the pipeline runs without them)
+# instructor>=1.7
+# openai>=1.40          # FEATURE_IMPACT_LLM=openai
+# google-genai>=1.0     # FEATURE_IMPACT_LLM=gemini

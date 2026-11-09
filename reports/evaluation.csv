@@ -1,0 +1,9 @@
+outcome,method,n_estimates,bias_pp,mae_pp,rmse_pp,ci_coverage,false_confirmed,missed,wrong_sign
+renewed,Naive (users vs non-users),120,14.2240,14.2240,15.1350,,8,0,1
+renewed,"PSM (1:1 NN, caliper 0.2 SD)",120,0.1293,1.0758,1.2923,0.9833,0,0,0
+renewed,Stratified (skip zero-var strata),120,3.2610,3.2915,3.6575,0.2417,6,0,0
+renewed,Stratified (keep zero-var strata),120,0.6449,1.0647,1.2852,0.8667,0,0,0
+aha,Naive (users vs non-users),120,14.3648,14.3648,15.3964,,6,0,1
+aha,"PSM (1:1 NN, caliper 0.2 SD)",120,-0.1825,1.1327,1.3649,0.9833,0,4,0
+aha,Stratified (skip zero-var strata),120,2.6488,2.7180,3.2041,0.4250,5,0,0
+aha,Stratified (keep zero-var strata),120,0.6027,1.1353,1.4182,0.8333,1,1,0

@@ -1,0 +1,10 @@
+[project]
+name = "feature-impact-causal"
+version = "0.1.0"
+description = "Which product features cause retention? Propensity score matching on synthetic POS SaaS data."
+requires-python = ">=3.10"
+license = { text = "MIT" }
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
